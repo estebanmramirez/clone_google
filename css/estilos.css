@@ -1,0 +1,94 @@
+
+img {
+    width: 20px; /*tamano emoji y menu del header*/
+    height: 20px;
+}
+
+figure{ /*centrado imagen de google*/
+    display: flex;
+    justify-content: center;
+    padding-top: 120px;
+}
+
+figure img{
+    width: 350px; /* Tamano imagen Google */
+    height: 120px;
+}
+
+form{  /*Barra de busqueda */
+    display: flex;
+    justify-content: center;
+    padding-right: 300px;
+    box-shadow: none;
+}
+
+footer ul{
+    display:flex;
+    justify-content: flex-start;
+    padding: 10px;
+    padding-top: 150px;
+}
+
+li{
+    list-style: none;
+}
+
+nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+}
+
+button{ /*Diseno de los botones de busqueda*/
+    background-color: #EBEBEB;
+    border-radius: 5px;
+    padding: 15px 15px;
+    font-size: 13px;
+    box-sizing: border-box;
+}
+
+.menu{
+    padding-right: 10px;
+    padding-left: 10px;
+    
+}
+
+.emoji{
+    padding-left: 10px;
+}
+
+.gmail{
+    padding-right: 10px;
+}
+
+.barra { /*barra de busqueda */
+    border-radius: 10px;
+    width: 300%;
+    height: 25px;
+    border-style: 5px;
+}
+
+.buttons{
+    display: flex;
+    padding-top: 30px;
+    padding-left: 300px;
+}
+
+.lucky{
+    padding-left: 20px;
+}
+
+.ads {
+    padding-right: 10px;
+}
+
+.about {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
