@@ -2,6 +2,8 @@
 img {
     width: 20px; /*tamano emoji y menu del header*/
     height: 20px;
+    cursor: pointer;
+    
 }
 
 figure{ /*centrado imagen de google*/
@@ -11,8 +13,9 @@ figure{ /*centrado imagen de google*/
 }
 
 figure img{
-    width: 350px; /* Tamano imagen Google */
-    height: 120px;
+    width: 272px; /* Tamano imagen Google */
+    height: 92px;
+    cursor: pointer;
 }
 
 form{  /*Barra de busqueda */
@@ -27,6 +30,7 @@ footer ul{
     justify-content: flex-start;
     padding: 10px;
     padding-top: 150px;
+    cursor: pointer;
 }
 
 li{
@@ -36,6 +40,10 @@ li{
 nav li a {
     text-decoration: none;
     color: black;
+}
+
+nav ul .emoji{
+    border-radius: 50px;
 }
 
 nav ul{
@@ -60,10 +68,12 @@ button{ /*Diseno de los botones de busqueda*/
 
 .emoji{
     padding-left: 10px;
+    border-radius: 50%;
 }
 
 .gmail{
     padding-right: 10px;
+    
 }
 
 .barra { /*barra de busqueda */
